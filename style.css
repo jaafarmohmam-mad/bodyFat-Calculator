@@ -1,0 +1,162 @@
+*{
+    margin:0;
+}
+html{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    border: 0;
+    margin:0;
+    
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url(./fonts/Organic\ Relief.woff2);
+}
+body{
+    background-image: url(./images/background.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: white;
+    font-size: 22px;
+}
+.container{
+    height:max-content;
+    width:max-content;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    height:max-content;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 145, 255);
+    opacity:0.9;
+    margin-top:30px;
+    border-radius:20px;
+    position:relative;
+    right:-35px;
+    
+    
+}
+input[type="text"]{
+    width:280px;
+    height: 30px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-radius:20px;
+    appearance:none;
+    box-shadow: none;
+    border:0;
+}
+
+fieldset{
+    display:flex;
+    width:260px;
+    justify-content: space-evenly;
+    border:0;
+    margin-top:10px;
+}
+.gender{
+    color:white;
+    font-size:22px;
+}
+.ghlogo{
+    width: 50px;
+    height: 50px
+}
+footer{
+    width: 100vw;
+    font-size: 30px ;
+    font-weight: bold;
+    background-image:linear-gradient(to right,rgb(101, 206, 247),rgb(255, 0, 119));
+    opacity: 0.8;
+    position: fixed;
+    height: max-content;
+    bottom: 0;
+    
+
+    
+}
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+}
+a{
+    margin-right: 5px;
+    text-decoration: none;
+    color:black;
+
+}
+meter{
+    width:300px;
+    height: 50px;
+    
+}
+button{
+    height: 40px;
+    width:max-content;
+    font-size:22px;
+    text-align: center;
+    border:0;
+    border-radius: 5px;
+    background-color: rgb(101, 206, 247);
+   
+
+    
+}
+button:hover{
+    background-color: rgb(255, 0, 119);
+}
+
+input[type="radio"]{
+    appearance:none;
+    -webkit-appearance: none;
+    margin: 0;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 0, 119);
+    position: relative;
+    
+
+}
+input[type="radio"]:checked{
+    background-color: rgb(101, 206, 247);   
+}
+
+output{
+    margin-top: 10px;
+    font-size:22px;
+    font-weight: bold;
+    color:white;
+    text-align:center;
+}
+
+h1{
+    animation: color-change 1s infinite;
+    font-size: 44px;
+}
+@keyframes color-change{
+    0% { color: rgb(101, 206, 247) }
+    10% { color: rgb(101, 206, 247) }
+    20% { color: rgb(101, 206, 247) }
+    30% { color: rgb(101, 206, 247) }
+    40%{ color: rgb(101, 206, 247) }
+    50%{ color: rgb(101, 206, 247) }
+    60%{ color: rgb(255, 0, 119)}
+    70%{ color: rgb(255, 0, 119) }
+    80%{ color: rgb(255, 0, 119) }
+    90%{ color: rgb(255, 0, 119)}
+    100%{ color: rgb(255, 0, 119) }
+}
+

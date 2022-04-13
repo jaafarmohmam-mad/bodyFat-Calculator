@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bodyfat Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h1>BodyFat Calculator</h1>
+        <form action="" method="POST">
+            <div class="g">
+                <fieldset>
+                    <div class="gender">Gender :</div>
+                <label for="genderMale">Male</label>
+            <input type="radio" id="genderMale" name="gender" value="male" required>
+            
+           
+            <label for="genderFemale">Female</label>
+            <input type="radio" id="genderFemale" name="gender" value="female" required>
+            
+        </fieldset>
+            </div>
+
+            
+
+            
+
+            <label for="age">Age</label>
+            <input type="text"  id="age" pattern="[0-9]+" required >
+
+
+
+            <label for="weight">Weight(kg)</label>
+            <input type="text"  id="weight" pattern="[0-9]+" required>
+
+
+
+            <label for="height">Height(cm)</label>
+            <input type="text"  id="height" pattern="[0-9]+" required>
+
+
+
+            <button type="button" id="calculate">Calculate</button>
+
+
+
+            <output id="bodyfat">bodyfat</output>
+
+
+
+            <meter id="meter" for="bodyfat" min="2" max="50" low="10" optimum="15" high="25" value="35" ></meter>
+
+
+
+            
+        
+
+
+
+        </form>
+        
+        
+    </div>
+    
+    
+    <footer>
+        <div class="footer">Made by : <a href="https://github.com/jaafarmohmam-mad">Jaafar Moham-mad  </a> <a href="https://github.com/jaafarmohmam-mad"><img class="ghlogo" src="./images/github-logo.png" alt="github logo"></a></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
